@@ -22,6 +22,18 @@ const envs: Record<string, Partial<StackInput>> = {
   // },
   dev: {
     // Parameters for development environment
+    ragKnowledgeBaseEnabled: true,
+    ragKnowledgeBaseId: 'XXXXXXXXXX',
+    ragKnowledgeBaseStandbyReplicas: false,
+    ragKnowledgeBaseAdvancedParsing: true,
+    ragKnowledgeBaseAdvancedParsingModelId:
+      'anthropic.claude-3-sonnet-20240229-v1:0',
+    ragKnowledgeBaseBinaryVector: false,
+    embeddingModelId: 'amazon.titan-embed-text-v2:0',
+    agentEnabled: true,
+    searchAgentEnabled: true,
+    searchEngine: 'Brave',
+    searchApiKey: 'BSANwJud44MD5ElIy_CJmZ2KDcjHw4O',
   },
   staging: {
     // Parameters for staging environment

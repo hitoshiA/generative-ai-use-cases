@@ -15,7 +15,7 @@
     ]
   },
   "context": {
-    "env": "",
+    "env": "dev",
     "ragEnabled": false,
     "kendraIndexArn": null,
     "kendraIndexLanguage": "ja",
